@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "practica-app",
-    "slug": "practica-app",
+    "name": "React Study Lab",
+    "slug": "react-study-lab",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,10 +16,18 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.alex.practicaentrevista"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "practica",
+    "experiments": {
+      "typedRoutes": true
     }
   }
 }
